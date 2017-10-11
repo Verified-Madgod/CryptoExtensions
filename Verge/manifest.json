@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Verge Crypto Ticker",
+	"short_name": "Verge",
+	"version": "1.0",
+
+	"description": "A Ticker for the Verge Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Verge",
+	
+	"icons": {
+		"48": "icons/Verge-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/Verge-32.png",
+		"default_title": "Verge",
+		"default_popup": "popup/Verge.html"
+	}
+
+}

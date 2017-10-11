@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "AdEx Crypto Ticker",
+	"short_name": "AdEx",
+	"version": "1.0",
+
+	"description": "A Ticker for the AdEx Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/AdEx",
+	
+	"icons": {
+		"48": "icons/AdEx-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/AdEx-32.png",
+		"default_title": "AdEx",
+		"default_popup": "popup/AdEx.html"
+	}
+
+}

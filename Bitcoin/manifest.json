@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+    "author": "Paul",
+    "name": "Bitcoin Ticker",
+    "short_name": "Bitcoin",
+    "description": "A Detailed Ticker for the Bitcoin Cryptocurrency",
+    "homepage_url": "https://github.com/Verified-Madgod/Bitcoin-Ticker",
+
+    "icons": {
+        "48": "icons/bitcoin-48.png"
+    },
+
+    "permissions": [
+        "https://api.coinmarketcap.com/"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/bitcoin-32.png",
+        "default_title": "Bitcoin",
+        "default_popup": "popup/bitcoin.html"
+    }
+}

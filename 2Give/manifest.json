@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "VerifiedMadgod",
+	"name": "2Give Crypto Ticker",
+	"short_name": "2Give",
+	"version": "1.0",
+
+	"description": "A Ticker for the 2Give Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/2Give",
+	
+	"icons": {
+		"48": "icons/2Give-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/2Give-32.png",
+		"default_title": "2Give",
+		"default_popup": "popup/2give.html"
+	}
+
+}

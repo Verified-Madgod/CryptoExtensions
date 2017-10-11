@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Bitcoin Cash Ticker",
+	"short_name": "Bitcoin Cash",
+	"version": "1.0",
+
+	"description": "A Ticker for the Bitcoin Cash Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Bitcoin-Cash",
+	
+	"icons": {
+		"48": "icons/bitcoin-cash-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/bitcoin-cash-32.png",
+		"default_title": "Bitcoin Cash",
+		"default_popup": "popup/bitcoin-cash.html"
+	}
+
+}

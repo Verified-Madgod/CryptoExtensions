@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "HempCoin Crypto Ticker",
+	"short_name": "",
+	"version": "1.0",
+
+	"description": "A Ticker for the HempCoin Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/HempCoin",
+	
+	"icons": {
+		"48": "icons/HempCoin-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/HempCoin-32.png",
+		"default_title": "HempCoin",
+		"default_popup": "popup/HempCoin.html"
+	}
+
+}

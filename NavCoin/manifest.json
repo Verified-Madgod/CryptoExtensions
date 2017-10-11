@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "NAV Coin Crypto Ticker",
+	"short_name": "NAV Coin",
+	"version": "1.0",
+
+	"description": "A Ticker for the NAV Coin Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/nav-coin",
+	
+	"icons": {
+		"48": "icons/navcoin-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/navcoin-32.png",
+		"default_title": "NAV Coin",
+		"default_popup": "popup/nav-coin.html"
+	}
+
+}

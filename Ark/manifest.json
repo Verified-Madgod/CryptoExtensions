@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Ark Crypto Ticker",
+	"short_name": "Ark",
+	"version": "1.0",
+
+	"description": "A Ticker for the Ark Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Ark",
+	
+	"icons": {
+		"48": "icons/Ark-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/Ark-32.png",
+		"default_title": "Ark",
+		"default_popup": "popup/Ark.html"
+	}
+
+}

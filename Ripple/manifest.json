@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Ripple Crypto Ticker",
+	"short_name": "Ripple",
+	"version": "1.0",
+
+	"description": "A Ticker for the Ripple Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Ripple",
+	
+	"icons": {
+		"48": "icons/Ripple-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/Ripple-32.png",
+		"default_title": "Ripple",
+		"default_popup": "popup/Ripple.html"
+	}
+
+}

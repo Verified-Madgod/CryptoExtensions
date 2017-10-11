@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Ethereum Crypto Ticker",
+	"short_name": "Ethereum",
+	"version": "1.0",
+
+	"description": "A Ticker for the Ethereum Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Ethereum",
+	
+	"icons": {
+		"48": "icons/ethereum-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/ethereum-32.png",
+		"default_title": "Ethereum",
+		"default_popup": "popup/ethereum.html"
+	}
+
+}

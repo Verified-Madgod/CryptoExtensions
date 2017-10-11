@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Monaco Crypto Ticker",
+	"short_name": "Monaco",
+	"version": "1.0",
+
+	"description": "A Ticker for the Monaco Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Monaco",
+	
+	"icons": {
+		"48": "icons/Monaco-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/Monaco-32.png",
+		"default_title": "Monaco",
+		"default_popup": "popup/Monaco.html"
+	}
+
+}

@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Golem Crypto Ticker",
+	"short_name": "Golem",
+	"version": "1.0",
+
+	"description": "A Ticker for the Golem Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Golem",
+	
+	"icons": {
+		"48": "icons/golem-network-tokens-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/golem-network-tokens-32.png",
+		"default_title": "Golem",
+		"default_popup": "popup/Golem.html"
+	}
+
+}

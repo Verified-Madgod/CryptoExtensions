@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "OmiseGO Crypto Ticker",
+	"short_name": "OmiseGO",
+	"version": "1.0",
+
+	"description": "A Ticker for the OmiseGO Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/OmiseGO",
+	
+	"icons": {
+		"48": "icons/OmiseGO-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/OmiseGO-32.png",
+		"default_title": "OmiseGO",
+		"default_popup": "popup/OmiseGO.html"
+	}
+
+}

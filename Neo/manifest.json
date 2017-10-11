@@ -1,0 +1,26 @@
+{
+
+	"manifest_version": 2,
+	"author": "Paul",
+	"name": "Neo Crypto Ticker",
+	"short_name": "Neo",
+	"version": "1.0",
+
+	"description": "A Ticker for the Neo Cryptocurrency",
+	"homepage_url": "https://github.com/Verified-Madgod/CryptoExtensions/Neo",
+	
+	"icons": {
+		"48": "icons/Neo-48.png"
+	},
+
+	"permissions": [
+		"https://api.coinmarketcap.com/"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/Neo-32.png",
+		"default_title": "Neo",
+		"default_popup": "popup/Neo.html"
+	}
+
+}
